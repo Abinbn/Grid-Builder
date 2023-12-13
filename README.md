@@ -33,5 +33,4 @@ CSS Grid Builder is a web-based tool that allows users to visually create a CSS 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 
 # License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+This project is unlicensed - see the LICENSE file for details. This project is free and unencumbered software released into the public domain. Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
