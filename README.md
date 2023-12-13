@@ -29,6 +29,9 @@ CSS Grid Builder is a web-based tool that allows users to visually create a CSS 
 #Used
 `Prism.js (for syntax highlighting)`
 
+![Grid-Builder](https://github.com/Abinbn/Grid-Builder/assets/82628577/6594b5c8-0406-4f3d-8fdc-665b51fd410a)
+
+
 # Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 
