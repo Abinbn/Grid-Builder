@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid Builder</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+<div class="header">
+    <h1>Grid Builder</h1>
+</div>
+
+<div class="main">
+  <div id="form-container">
+    <label for="rows">Rows:</label>
+    <input type="number" id="rows" value="3">
+    
+    <label for="columns">Columns:</label>
+    <input type="number" id="columns" value="3">
+    
+    <label for="grid-gap">Grid Gap:</label>
+    <input type="number" id="grid-gap" value="10">
+    
+    <label for="padding">Padding:</label>
+    <input type="number" id="padding" value="10">
+    
+    <label for="margin">Margin:</label>
+    <input type="number" id="margin" value="20">
+    
+    <button onclick="generateGrid()">Generate Grid</button>
+  </div>
+
+  <div id="grid-container"></div>
+  <button id="copy-button" onclick="copyToClipboard()">Copy CSS Code</button>
+  <pre id="css-code-container" class="language-css" onclick="copyToClipboard()"></pre>
+  
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
